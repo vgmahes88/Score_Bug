@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'Calibri-Bold';
+  src: url('../fonts/Calibri-Bold.eot?#iefix') format('embedded-opentype'), 
+	   url('../fonts/Calibri-Bold.woff') format('woff'), 
+	   url('../fonts/Calibri-Bold.ttf')  format('truetype'), 
+	   url('../fonts/Calibri-Bold.svg#Calibri-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body
+{
+	margin:0px;
+	font-family: 'Calibri-Bold';
+}
+.score_bug_mct
+{
+	width: 1280px;
+	height: 720px;
+	margin:0 auto;
+	background-image:url("../img/bg.jpg");
+	background-size:100% 100%;
+}
+.score_bug_r
+{
+	width: 1200px;
+	margin: 0 auto;
+	height: 75px;
+	bottom: 170px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+.score_bug_r-1
+{
+	height:40px;
+}
+.score_bug_w20
+{
+	width:20%;
+	float:left;
+}
+.score_bug_w60
+{
+	width:60%;
+	float:left;
+	background:rgb(255,255,255);
+	height:40px;
+}
+.score_bug_odd
+{
+	background:rgb(255,255,255);
+	height:40px;
+}
+.score_bug_even
+{
+	background:rgb(2,52,77);
+	height:40px;
+}
+.need_runs h4
+{
+	margin-top: 6px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	font-size: 21px;
+	padding-left: 15px;
+	letter-spacing: 2px;
+}
+.teamrun
+{
+	width:80%;
+	float:left;
+}
+.team_over
+{
+	width:20%;
+	float:left;
+}
+.score_bug_even h4
+{
+	color:#fff;
+	text-transform:uppercase;
+	margin-top:0px;
+}
+.teamrun h4	
+{
+	font-size: 23px;
+	margin-bottom: 4px;
+	margin-top: 5px;
+	padding-left: 10px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.team_over h4
+{
+	margin-top: 6px;
+	font-size: 21px;
+	margin-bottom: 0px;
+}
+.score_bug_r-2 
+{
+	height:35px;
+}
+.score_bug_even_r2 {
+    background: rgb(2,52,77);
+	height:35px;
+}
+.score_bug_odd_r2
+{
+	background: rgb(255,255,255);
+	height:35px;
+}
+.scorebug_versus h4
+{
+	margin-top: 3px;
+	font-size: 23px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	letter-spacing: 3px;
+}
+.scorebug_versus h4 sub
+{
+	bottom: 5px;
+	position: relative;
+}
+.score_bug_w60_r2
+{
+	background: rgb(2,52,77);
+	height:35px;
+	width: 60%;
+	float: left;
+}
+.score_bug_player_rs
+{
+	width: 31%;
+	float: left;
+	padding-left: 15px;
+}
+.sc_player_name
+{
+	width:70%;
+	float:left;
+}
+.sc_player_runs
+{
+	width:30%;
+	float:left;
+}
+.score_bug_player_rs h4
+{
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.sc_bug_palyers > h4 > span:nth-child(2) > sub
+{
+	bottom: 6px;
+	position: relative;
+	font-size: 16px;
+}
